@@ -1,0 +1,402 @@
+    1  ls
+    2  pwd
+    3  clear
+    4  touch prueba.txt
+    5  ls
+    6  pwd
+    7  clear
+    8  pwd
+    9  cd /etc
+   10  pwd
+   11  cd /home/julio_olivares
+   12  clear
+   13  pwd
+   14  cd /root
+   15  clear
+   16  pwd
+   17  sudo cd /root
+   18  clear
+   19  sudo -i
+   20  sudo su
+   21  sudo -i
+   22  clear
+   23  pwd
+   24  cd /home
+   25  pwd
+   26  cd julio_olivares
+   27  clear
+   28  pwd
+   29  cd /boot
+   30  pwd
+   31  cd /home/julio_olivares
+   32  clear
+   33  pwd
+   34  cd /bin
+   35  pwd
+   36  cd ..
+   37  cd 
+   38  cd /home/julio_olivares
+   39  clear
+   40  pwd
+   41  cd ..
+   42  cd /etc
+   43  pwd
+   44  cd /home/julio_olivares
+   45  clear
+   46  cd ..
+   47  cd 
+   48  ls
+   49  clear
+   50  cd ..
+   51  cd /root
+   52  clear
+   53  cd /home/julio_olivares
+   54  clear
+   55  pwd
+   56  sudo -i
+   57  clear
+   58  cd /home/julio_olivares
+   59  clear
+   60  pwd
+   61  cd ..
+   62  pd
+   63  clea
+   64  clear
+   65  cd julio_olivares
+   66  clear
+   67  pwd
+   68  cd ..
+   69  pwd
+   70  cd julio_olivares
+   71  clear
+   72  pwd
+   73  cd ..
+   74  ls
+   75  cd boot
+   76  pwd
+   77  clear
+   78  cd /home/julio_olivares
+   79  clear
+   80  pwd
+   81  cd ..
+   82  ls
+   83  cd bin
+   84  pwd
+   85  cd ~.
+   86  cd ~
+   87  ls
+   88  pwd
+   89  clear
+   90  cd /bin
+   91  clear
+   92  pwd
+   93  cd ~
+   94  pw
+   95  clear
+   96  cd /bin
+   97  clear
+   98  pwd
+   99  cd ~
+  100  pwd
+  101  clear
+  102  pwd
+  103  clear
+  104  mkdir prueba
+  105  mkdir practica_dos
+  106  ls
+  107  clear
+  108  cd prueba
+  109  mkdir linux
+  110  ls
+  111  cd ../../
+  112  cd julio_olivares
+  113  clear
+  114  mkdir prueba.1 && ls prueba.1 && cd prueba.1 && mkdir prueba.2
+  115  ls
+  116  cd ..
+  117  ls
+  118  cd practica_dos
+  119  clear
+  120  ls -al > prueba
+  121  ls -al > pruebaa
+  122  ls -al > pruebaA
+  123  ls -al > pruebaB
+  124  ls -al > pruebaBa
+  125  ls -al > pruebaC
+  126  ls -al > pruebaCa
+  127  ls -al > pruebaCb
+  128  ls -al > pruebaCc
+  129  ls -al > pruebaDa
+  130  ls -al > pruebaDb
+  131  ls -al > pruebaDc
+  132  ls -al > pruebaDd
+  133  ls -al > pruebaDx
+  134  ls -al > pruebaDy
+  135  clear
+  136  cd ..
+  137  cd prueba
+  138  pwd
+  139  cp -v -f ../practica_dos/practica*a ../prueba.1/prueba.2
+  140  clear
+  141  pwd
+  142  cp -v -f ../practica_dos/prueba*a ../prueba.1/prueba.2
+  143  cd ~
+  144  clear
+  145  pwd
+  146  cp -i /practica_dos/prueba[!a,b] /prueba.1/prueba.2
+  147  clear
+  148  clear
+  149  cp -i ./practica_dos/prueba[!a,b] ./prueba.1/prueba.2
+  150  ls /prueba.1/prueba.2
+  151  ls ./prueba.1/prueba.2
+  152  clear
+  153  pwd
+  154  ls a ./practica_dos && ls a ./prueba.1/prueba.2
+  155  clear
+  156  pwd
+  157  ls -a 
+  158  clear
+  159  pwd
+  160  ls -a ./practica_dos
+  161  ls -a ./prueba.1/prueba.2
+  162  clear
+  163  mv -f -v ./practica_dos/*[!a,b,c,d] ./practica/linux
+  164  clear
+  165  mv -f -v ./practica_dos/*[!a,b,c,d] ./prueba/linux
+  166  clear
+  167  pwd
+  168  cd practica_dos
+  169  ls
+  170  mv prueba prueba.txt
+  171  ls prueba.txt
+  172  clear
+  173  touch -t 201802011735 prueba.txt
+  174  ls -l
+  175  ls -l prueba.txt
+  176  clear
+  177  cd ~
+  178  rm -v -i -f -r ./prueba/* && rm -v -i -f -r ./prueba.1/* && rm -v -i -f -r ./practica_dos/*
+  179  sudo init 0
+  180  man /dev/null
+  181  ps
+  182  ps -r
+  183  ps -e
+  184  clear
+  185  ps -e
+  186  clear
+  187  ps -e|more
+  188  clear
+  189  ps -e | more
+  190  ps -e | less
+  191  clear
+  192  ps -e | more
+  193  ps -e -less
+  194  ps -e|less
+  195  clear
+  196  ps aux
+  197  man ps
+  198  man ps PROCESS STATE
+  199  man ps "PROCESS STATE CODES"
+  200  clear
+  201  man top
+  202  clear
+  203  top
+  204  top -u julio_olivares
+  205  clear
+  206  top 1
+  207  clear
+  208  top PID 1
+  209  clear
+  210  top -p 1
+  211  cd /proc
+  212  ls
+  213  cd tty
+  214  ld
+  215  ls
+  216  ls 1
+  217  cd ..
+  218  ls 1
+  219  clear
+  220  ls
+  221  cler
+  222  clear
+  223  ls
+  224  ls 1
+  225  ls
+  226  cd 1
+  227  ls
+  228  clear
+  229  sudo ls
+  230  file
+  231  ls -l
+  232  file limits
+  233  file status
+  234  file limits less
+  235  file less limits
+  236  sudo su
+  237  clear
+  238  cd ~
+  239  ls
+  240  clear
+  241  pwd
+  242  yes hola
+  243  yes adios > /dev/null
+  244  sudo su
+  245  ps -e |  less
+  246  kill 2176
+  247  sudo kill 2176
+  248  top
+  249  sudo SIGKILL 2187sudo kill -s 9 2187
+  250  sudo kill -s 9 2187
+  251  clear
+  252  yes otra vez  > /dev/null &
+  253  helps jobs
+  254  help jobs
+  255  josbs 
+  256  jobs
+  257  clear
+  258  jobs
+  259  ps -e | less
+  260  top
+  261  pstree
+  262  yes mensaje > /dev/null &
+  263  pstree
+  264  pstree -h
+  265  jobs
+  266  top
+  267  kill -s 9 2221
+  268  jobs
+  269  init 0
+  270  sudo init 0
+  271  yes mensaje2 > /dev/null
+  272  jobs
+  273  clear
+  274  fg
+  275  bg
+  276  jobs
+  277  ps -e less
+  278  jobs
+  279  clear
+  280  ps
+  281  jobs
+  282  kill -s 19 1155
+  283  jobs
+  284  yes prueba1 > /dev/null
+  285  jobs
+  286  tree
+  287  clear
+  288  pstree
+  289  pstree -h
+  290  clea
+  291  clear
+  292  fg
+  293  bg 
+  294  ps
+  295  kill -s 19 1160
+  296  jobs
+  297  yes prueba2 > /dev/null &
+  298  bg
+  299  fg
+  300  clear
+  301  jobs
+  302  man jobs
+  303  bg 2
+  304  top 
+  305  kill -s 19 1296
+  306  kill -s 19 1160
+  307  jobs
+  308  bg 1
+  309  kill -s 9 1160
+  310  jobs
+  311  top
+  312  kill -s 9 1155
+  313  jobs
+  314  top
+  315  yes hola > /dev/null &
+  316  clear
+  317  kill -s 9 1
+  318  sudo kill -s 9 1
+  319  fg
+  320  sudo kill -9 1
+  321  fg
+  322  sudo kill -s 9 1
+  323  kill -s 9 1
+  324  fg
+  325  clear
+  326  /etc/init.d/crond status
+  327  cd /etc
+  328  ls
+  329  clear
+  330  & ~
+  331  cd ~
+  332  clear
+  333  ps -ef | grep crond
+  334  pstree
+  335  clear
+  336  sudo nano /etc/crontab
+  337  pwd
+  338  cd ..
+  339  ls
+  340  cd ~
+  341  mkdir escritorio
+  342  ls
+  343  sudo nano /etc/crontab
+  344  mkdir /home/practica3 && cd /home/practica3 && touch log; echo "Hoy es 8 de septiembre"
+  345  sudo mkdir /home/practica3 && cd /home/practica3 && touch log; echo "Hoy es 8 de septiembre"
+  346  ls
+  347  pwd
+  348  ls
+  349  ls -l
+  350  cd ..
+  351  ls
+  352  cd ..
+  353  ls
+  354  cd home
+  355  ls 
+  356  cd practica3
+  357  ls
+  358  clear
+  359  cd ..
+  360  rm practica3
+  361  sudo rm practica3
+  362  rmdir practica3
+  363  sudo rmdir practica3
+  364  ñs
+  365  ls
+  366  sudo mkdir /home/practica3 && cd /home/practica3 && ls -al > log; echo "Hoy es 8 de septiembre"
+  367  ls
+  368  cd 
+  369  ls
+  370  cd ..
+  371  rmdir practica3
+  372* 
+  373  sudo mkdir /home/practica3 && cd /home/practica3 && cat log; echo "Hoy es 8 de septiembre"
+  374  ls
+  375  cd .
+  376  cd ..
+  377  rmdir practica3
+  378  sudo rmdir practica3
+  379  sudo nano /etc/crontab
+  380  crontab -l
+  381  contrab -e
+  382  crontab -e
+  383  sudo nano /etc/crontab
+  384  echo juan >>/etc/cron.allow
+  385  sudo echo juan >>/etc/cron.allow
+  386  sudo echo julio_olivares >>/etc/cron.allow
+  387  cd /etc
+  388  cd cron{
+  389  ls
+  390  cd crontab
+  391  ls -l
+  392  clear
+  393  contrab -e
+  394  crontab -e
+  395  service crond restart
+  396  crontab -e
+  397  crontrab -l
+  398  cron -l
+  399  crontab -l
+  400  sudo nano /etc/crontab
+  401  cd ~
+  402  history > mandatos_practica_3.txt
